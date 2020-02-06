@@ -48,6 +48,7 @@ body {
     padding: 10px;
     background-color: #F4A82C;
     width: 80vw;
+    margin-bottom: 50px;
 }
 .flank_capsule {
     height: 100px;
@@ -56,4 +57,153 @@ body {
     padding: 10px;
     grid-area: "box";
     background-color: #0C2333;
+}
+.favor {
+    margin: auto;
+    margin-top: 10px;
+    background-color: #3376BC; 
+    height: 300px;
+    width: 85vw;
+    margin-bottom: 10px;
+}
+.ghost_boo {
+    height: 100px;
+    width: 90vw;
+    margin: auto;
+    padding: 10px;
+    background-color: #6CD8B8;
+    margin-bottom: px;
+}
+.ghost_white {
+    height: 100px;
+    width: 85vw;
+    margin: auto;
+    padding: 10px;
+    background-color: #F4A82C;
+    margin-bottom: 10px;
+}
+.block {
+    margin-top: 50px;
+    margin: auto;
+    margin-top: 10px;
+    background-color: #3376BC; 
+    height: 300px;
+    width: 85vw;
+    margin-bottom: 50px;
+}
+.barrel_green {
+    height: 100px;
+    width: 90vw;
+    margin: auto;
+    padding: 10px;
+    background-color: #6CD8B8;
+    margin-bottom: 10px;=
+}
+.barrel_solid {
+    height: 150px;
+    width: 90vw;
+    margin: auto;
+    padding: 10px;
+    background-color: #F4A82C;
+    margin-bottom: 70px;
+}
+.mine {
+    height: 100px;
+    width: 85vw;
+    margin: auto;
+    padding: 10px;
+    background-color: #C62B72;
+    margin-bottom: 100px;
+}
+.engine_blast {
+    margin-top: 50px;
+    margin: auto;
+    margin-top: 10px;
+    background-color: #3376BC; 
+    height: 300px;
+    width: 85vw;
+    margin-bottom: 10px;
+}
+.engine_piston {
+    margin-top: 50px;
+    margin: auto;
+    margin-top: 10px;
+    background-color: #C62B72; 
+    height: 30px;
+    width: 85vw;
+    margin-bottom: 50px;
+}
+.cake {
+    margin-top: 50px;
+    margin: auto;
+    margin-top: 10px;
+    background-color: #6CD8B8; 
+    height: 200px;
+    width: 80vw;
+    margin-bottom: 100px;
+}
+.egg {
+    margin-top: 50px;
+    margin: auto;
+    margin-top: 10px;
+    background-color: #3376BC; 
+    height: 400px;
+    width: 85vw;
+    margin-bottom: 50px;
+}
+.milk {
+    margin-top: 50px;
+    margin: auto;
+    margin-top: 10px;
+    background-color: #C62B72; 
+    height: 100px;
+    width: 85vw;
+    margin-bottom: 50px;
+}
+.blare {
+    margin-top: 50px;
+    margin: auto;
+    margin-top: 10px;
+    background-color: #F4A82C; 
+    height: 30px;
+    width: 90vw;
+    margin-bottom: 50px;
+}
+.blare {
+    margin-top: 50px;
+    margin: auto;
+    margin-top: 10px;
+    background-color: #0C2333; 
+    height: 70px;
+    width: 90vw;
+    margin-bottom: 50px;
+}
+.footer_pot {
+    display: grid;
+    grid-gap: 10px;
+    grid-template-columns: 1fr 1fr 1fr;
+    height: 200px;
+    grid-template-areas: 
+    "fun fun lake";
+    margin: auto;
+    padding: 10px;
+    background-color: #F4A82C;
+    width: 100vw;
+    margin-bottom: 0px;
+}
+.fun {
+    height: 100px;
+    width: 150px;
+    margin: auto;
+    padding: 10px;
+    grid-area: "fun";
+    background-color: #0C2333;
+}
+.lake {
+    height: 200px;
+    width: 150px;
+    margin: auto;
+    padding: 10px;
+    grid-area: "lake";
+    background-color: #C62B72;
 }
