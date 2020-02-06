@@ -1,0 +1,149 @@
+body {
+    background-color: azure;
+    margin: 0;
+    padding: 0;
+}
+.header {
+    height: 30px;
+    width: 100vw;
+    position: fixed;
+    top: 0;
+    left: 0;
+    grid-template-columns: 1fr 1fr;
+    grid-template-areas: 
+    "left right";
+    position: fixed;
+    margin-bottom: 30px;
+}
+.header_left {
+    height: 30px;
+    width: 50vw;
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-color: #0C2333;
+    grid-area: left;
+    position: fixed;
+    margin-bottom: 30px;
+}
+.header_right {
+    height: 30px;
+    width: 30vw;
+    position: fixed;
+    top: 0;
+    left: 70%;
+    background-color: #3376BC;
+    grid-area: right;
+    position: fixed;
+    margin-bottom: 30px;
+}
+.backdrop {
+    margin: auto;
+    margin-top: 100px;
+    background-color: #6CD8B8;
+    height: 500px;
+    width: 90vw;
+    margin-bottom: 10px;
+}
+.backdrop {
+    margin: auto;
+    margin-top: 100px;
+    background-color: #6CD8B8;
+    height: 500px;
+    width: 90vw;
+    margin-bottom: 10px;
+}
+.branches {
+    height: 700px;
+    width: 80vw;
+    margin-bottom: 30px;
+}
+.branch_top {
+    margin: auto;
+    height: 30px;
+    width: 80vw;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-areas: 
+    "branch branch branch";
+    position: fixed;
+    margin-bottom: 30px;
+}
+.branch {
+    margin: auto;
+    height: 30px;
+    width: 100px;
+    grid-template-rows: 1fr 1fr;
+    grid-template-areas: 
+    "leaf stick";
+    margin-bottom: 30px;
+    grid-area: "branch";
+}
+.leaf {
+    margin: auto;
+    margin-top: 100px;
+    background-color: #6CD8B8;
+    height: 50px;
+    width: 100px;
+    margin-bottom: 10px;
+    grid-area: "leaf";
+}
+.stick {
+    margin: auto;
+    margin-top: 100px;
+    background-color: #F4A82C;
+    height: 50px;
+    width: 100px;
+    margin-bottom: 10px;
+    grid-area: "stick";
+}
+.parsec {
+    display: grid;
+    grid-gap: 10px;
+    grid-template-columns: 1fr 1fr 1fr;
+    height: 140px;
+    grid-template-areas: 
+    "box box box";
+    margin: auto;
+    padding: 10px;
+    width: 80vw;
+    margin-bottom: 50px;
+}
+.parsec_left {
+    height: 100px;
+    width: 150px;
+    margin: auto;
+    padding: 10px;
+    grid-area: "box";
+    background-color: #3376BC;
+}
+.parsec_mid {
+    height: 100px;
+    width: 150px;
+    margin: auto;
+    padding: 10px;
+    grid-area: "box";
+    background-color: #0C2333;
+}
+.parsec_right {
+    height: 100px;
+    width: 150px;
+    margin: auto;
+    padding: 10px;
+    grid-area: "box";
+    background-color: #C62B72;
+}
+.footer_top {
+    height: 20px;
+    width: 90vw;
+    margin: auto;
+    padding: 10px;
+    background-color: #0C2333;
+    margin-bottom: 20px;
+}
+.footer_bottom {
+    height: 30px;
+    width: 90vw;
+    margin: auto;
+    padding: 10px;
+    background-color: #F4A82C;
+}
