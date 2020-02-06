@@ -54,50 +54,37 @@ body {
     margin-bottom: 10px;
 }
 .branches {
-    height: 700px;
-    width: 80vw;
-    margin-bottom: 30px;
-}
-.branch_top {
     margin: auto;
-    height: 30px;
-    width: 80vw;
+    height: 300px;
+    width: 90vw;
     grid-template-columns: 1fr 1fr 1fr;
-    grid-template-areas: 
-    "branch branch branch";
-    position: fixed;
+    display: grid; 
+    grid-gap: 10px;
     margin-bottom: 30px;
 }
 .branch {
     margin: auto;
-    height: 30px;
-    width: 100px;
-    grid-template-rows: 1fr 1fr;
-    grid-template-areas: 
-    "leaf stick";
+    height: 200px;
+    width: 200px;
     margin-bottom: 30px;
-    grid-area: "branch";
 }
 .leaf {
     margin: auto;
-    margin-top: 100px;
     background-color: #6CD8B8;
-    height: 50px;
-    width: 100px;
+    height: 150px;
+    width: 200px;
     margin-bottom: 10px;
-    grid-area: "leaf";
 }
 .stick {
     margin: auto;
-    margin-top: 100px;
     background-color: #F4A82C;
-    height: 50px;
-    width: 100px;
+    height: 30px;
+    width: 200px;
     margin-bottom: 10px;
-    grid-area: "stick";
 }
-.parsec {
+.parsec { 
     display: grid;
+    margin-top: 100px;
     grid-gap: 10px;
     grid-template-columns: 1fr 1fr 1fr;
     height: 140px;
@@ -109,6 +96,7 @@ body {
     margin-bottom: 50px;
 }
 .parsec_left {
+    margin-top: 100px;
     height: 100px;
     width: 150px;
     margin: auto;
@@ -117,6 +105,7 @@ body {
     background-color: #3376BC;
 }
 .parsec_mid {
+    margin-top: 100px;
     height: 100px;
     width: 150px;
     margin: auto;
@@ -125,6 +114,7 @@ body {
     background-color: #0C2333;
 }
 .parsec_right {
+    margin-top: 100px;
     height: 100px;
     width: 150px;
     margin: auto;
