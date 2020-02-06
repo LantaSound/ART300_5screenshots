@@ -1,0 +1,237 @@
+body {
+    background-color: azure;
+    margin: 0;
+    padding: 0;
+}
+.header {
+    height: 30px;
+    width: 100vw;
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-color: #0C2333;
+}
+.backdrop {
+    margin: auto;
+    margin-top: 100px;
+    background-color: #6CD8B8;
+    height: 500px;
+    width: 100vw;
+    margin-bottom: 10px;
+}
+.image {
+    margin: auto;
+    margin-top: 100px;
+    background-color: #F4A82C;
+    height: 150px;
+    width: 50vw;
+    margin-bottom: 10px;
+    position: absolute;
+    top: 200px;
+}
+.branches {
+    margin: auto;
+    height: 300px;
+    width: 90vw;
+    grid-template-columns: 1fr 1fr;
+    display: grid; 
+    grid-gap: 10px;
+    margin-bottom: 30px;
+}
+.branch {
+    margin: auto;
+    height: 200px;
+    width: 200px;
+    margin-bottom: 30px;
+}
+.leaf {
+    margin: auto;
+    background-color: #3376BC;
+    height: 30px;
+    width: 200px;
+    margin-bottom: 10px;
+}
+.stick {
+    margin: auto;
+    background-color: #F4A82C;
+    height: 200px;
+    width: 300px;
+    margin-bottom: 10px;
+}
+.magnet_image {
+    margin: auto;
+    background-color: #C62B72;
+    height: 200px;
+    width: 80vw;
+    margin-bottom: 10px;
+}
+.magne {
+    margin: auto;
+    background-color: #6CD8B8;
+    height: 500px;
+    width: 100vw;
+    margin-bottom: 50px;
+}
+.polar_top {
+    margin: auto;
+    background-color: #3376BC;
+    height: 100px;
+    width: 40vw;
+    margin-bottom: 50px;
+}
+.polar_bottom {
+    margin: auto;
+    background-color: #6CD8B8;
+    height: 500px;
+    width: 100vw;
+    margin-bottom: 50px;
+}
+.brain {
+    margin: auto;
+    height: 300px;
+    width: 90vw;
+    grid-template-columns: 1fr 1fr;
+    display: grid; 
+    grid-gap: 10px;
+    margin-bottom: 30px;
+}
+.stem {
+    margin: auto;
+    height: 200px;
+    width: 200px;
+    margin-bottom: 50px;
+}
+.neuron {
+    margin: auto;
+    background-color: #F4A82C;
+    height: 30px;
+    width: 200px;
+    margin-bottom: 10px;
+}
+.gland {
+    margin: auto;
+    background-color: #6CD8B8;
+    height: 200px;
+    width: 300px;
+    margin-bottom: 10px;
+}
+.mars {
+    margin: auto;
+    height: 200px;
+    width: 100vw;
+    grid-template-columns: 1fr 1fr 1fr;
+    display: grid; 
+    grid-gap: 10px;
+    margin-bottom: 30px;
+}
+.alien {
+    margin: auto;
+    background-color: #0C2333;
+    height: 150px;
+    width: 200px;
+    margin-bottom: 10px;
+}
+.bird_feet {
+    margin: auto;
+    background-color: #6CD8B8;
+    height: 350px;
+    width: 100vw;
+    margin-bottom: 80px;
+}
+.beak {
+    margin: auto;
+    background-color: #F4A82C;
+    height: 100px;
+    width: 40vw;
+    margin-bottom: 80px;
+    position: absolute;
+    top: 3500px;
+    left: 300px;
+}
+.wing {
+    margin: auto;
+    background-color: #C62B72;
+    height: 250px;
+    width: 40vw;
+    margin-bottom: 80px;
+    position: absolute;
+    top: 3730px;
+    left: 120px;
+}
+
+.bird_tail {
+    margin: auto;
+    background-color: #6CD8B8;
+    height: 350px;
+    width: 100vw;
+    margin-bottom: 50px;
+}
+.eyes {
+    margin: auto;
+    background-color: #3376BC;
+    height: 150px;
+    width: 30vw;
+    margin-bottom: 50px;
+}
+.turtle {
+    margin: auto;
+    width: 100vw;
+    margin-bottom: 0px;
+}
+.shell {
+    margin: auto;
+    background-color: #6CD8B8;
+    height: 250px;
+    width: 100vw;
+    margin-bottom: 10px;
+}
+.scale {
+    margin: auto;
+    background-color: #F4A82C;
+    height: 30px;
+    width: 90vw;
+    margin-bottom: 100px;
+    top: 50px;
+}
+.greenhouse {
+    margin: auto;
+    width: 90vw;
+    margin-bottom: 30px;
+    height: 300px;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+    display: grid; 
+    grid-gap: 10px;
+}
+.hout {
+    margin: auto;
+    width: 100px;
+    margin-top: 0px;
+    height: 200px;
+}
+.greenhouse_name {
+    margin: auto;
+    background-color: #3376BC;
+    width: 100px;
+    margin-top: 10px;
+    height: 20px;
+}
+.greenhouse_button {
+    margin: auto;
+    background-color: #0C2333;
+    width: 100px;
+    margin-top: 10px;
+    height: 200px;
+}
+.free {
+    margin: auto;
+    background-color: #C62B72;
+    height: 50px;
+    width: 30vw;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    left: 50px;
+    position: absolute;
+}
+
+
+
