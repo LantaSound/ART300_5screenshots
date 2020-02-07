@@ -1,0 +1,150 @@
+body {
+    background-color: azure;
+    margin: 0;
+    padding: 0;
+}
+.header {
+    height: 30px;
+    width: 100vw;
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-color: #0C2333;
+}
+.backdrop {
+    margin: auto;
+    margin-top: 50px;
+    background-color: #6CD8B8;
+    height: 350px;
+    width: 100vw;
+    margin-bottom: 10px;
+}
+.backdrop_title {
+    margin: auto;
+    background-color: #3376BC;
+    height: 50px;
+    width: 330px;
+    margin-bottom: 50px;
+    position: relative;
+    top: 100px;
+    right: 230px;
+}
+.backdrop_text {
+    margin: auto;
+    background-color: #F4A82C;
+    height: 30px;
+    width: 270px;
+    margin-bottom: 100px;
+    right: 240px;
+    top: 70px;
+    position: relative;
+}
+.trees {
+    margin: auto;
+    margin-top: 10px;
+    height: 300px;
+    width: 100vw;
+    margin-bottom: 10px;
+    grid-template-columns: 1fr 1fr;
+    display: grid; 
+    grid-gap: 10px;
+}
+.tree {
+    margin: auto;
+    margin-top: 40px;
+    background-color: #6CD8B8;
+    height: 180px;
+    width: 310px;
+    margin-bottom: 10px;
+}
+.media_video {
+    margin: auto;
+    margin-top: 190px;
+    background-color: #3376BC;
+    height: 30px;
+    width: 200px;
+    margin-bottom: 10px;
+}
+.button {
+    margin: auto;
+    margin-top: 90px;
+    background-color: #C62B72;
+    height: 30px;
+    width: 200px;
+    margin-bottom: 0px;
+    left: 240px;
+    position: relative;
+}
+.greenhouse {
+    margin: auto;
+    margin-top: 0px;
+    height: 150px;
+    width: 90vw;
+    margin-bottom: 10px;
+    grid-template-columns: 1fr 1fr 1fr;
+    display: grid; 
+    grid-gap: 0px;
+}
+.greenhouse_name {
+    margin: auto;
+    margin-top: 40px;
+    background-color: #6CD8B8;
+    height: 150px;
+    width: 240px;
+    margin-bottom: 10px;
+}
+.branches {
+    margin: auto;
+    margin-top: 30px;
+    height: 150px;
+    width: 90vw;
+    margin-bottom: 10px;
+    grid-template-columns: 1fr 1fr 1fr;
+    display: grid; 
+    grid-gap: 0px;
+}
+.branch {
+    margin: auto;
+    margin-top: 40px;
+    height: 150px;
+    width: 70px;
+    margin-bottom: 10px;
+    right: 70px;
+    position: relative;
+}
+.leaf {
+    margin: auto;
+    margin-top: 40px;
+    background-color: #3376BC;
+    height: 20px;
+    width: 90px;
+    margin-bottom: 10px;
+}
+.stick {
+    margin: auto;
+    margin-top: 0px;
+    background-color: #0C2333;
+    height: 150px;
+    width: 70px;
+    margin-bottom: 10px;
+}
+.footer {
+    height: 70px;
+    width: 30vw;
+    margin: auto;
+    padding: 10px;
+    background-color: #C62B72;
+    margin-bottom: 20px;
+    margin-top: 200px;
+}
+.trunk {
+    height: 20px;
+    width: 40vw;
+    margin: auto;
+    padding: 10px;
+    background-color: #0C2333;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    right: 190px;
+    position: relative;
+}
