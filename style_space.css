@@ -220,3 +220,92 @@ body {
     width: 200px;
     margin-bottom: 10px;
 }
+.boss {
+    margin: auto;
+    margin-top: 10px;
+    height: 400px;
+    width: 90vw;
+    margin-bottom: 10px;
+    grid-template-columns: 1fr 1fr;
+    display: grid; 
+    grid-gap: 10px;
+}
+.peace {
+    margin: auto;
+    margin-top: 20px;
+    background-color: #3376BC;
+    height: 70px;
+    width: 30vw;
+    margin-bottom: 10px;
+}
+.pea {
+    margin: auto;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    grid-template-columns: 1fr 1fr 1fr;
+    display: grid; 
+    grid-gap: 10px;
+}
+.carrot {
+    margin: auto;
+    margin-top: 0px;
+    background-color: #6CD8B8;
+    height: 180px;
+    width: 15vw;
+    margin-bottom: 10px;
+}
+.onion {
+    margin: auto;
+    margin-top: 200px;
+    background-color: #C62B72;
+    height: 80px;
+    width: 15vw;
+    margin-bottom: 10px;
+}
+.call {
+    margin: auto;
+    margin-top: 20px;
+    background-color: #3376BC;
+    height: 30px;
+    width: 60vw;
+    margin-bottom: 10px;
+}
+
+
+
+.guest {
+    margin: auto;
+    margin-top: 10px;
+    width: 90vw;
+    margin-bottom: 10px;
+    grid-template-columns: 1fr 1fr;
+    display: grid; 
+    grid-gap: 10px;
+    margin-top: 100px;
+}
+.arp {
+    margin: auto;
+    margin-top: 100px;
+    margin-bottom: 10px;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    display: grid; 
+    grid-gap: 10px;
+}
+.peg {
+    margin: auto;
+    margin-top: 0px;
+    margin-bottom: 10px;
+    background-color: #6CD8B8;
+    height: 80px;
+    width: 15vw;
+}
+.io {
+    margin: auto;
+    margin-top: 0px;
+    background-color: #6CD8B8;
+    height: 80px;
+    width: 15vw;
+    margin-bottom: 10px;
+}
+
+
